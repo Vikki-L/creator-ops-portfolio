@@ -1,0 +1,53 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.venv/
+venv/
+ENV/
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Secrets / Credentials (CRITICAL)
+*.key
+*.pem
+*.token
+*.env
+.env*
+!.env.example
+secrets/
+credentials/
+config.local.*
+
+# Logs
+*.log
+logs/
+
+# Build / Dist
+dist/
+build/
+*.egg
+
+# Temp / Cache
+.cache/
+.tmp/
+tmp/
+*.tmp
+
+# Jupyter
+.ipynb_checkpoints/
