@@ -21,7 +21,7 @@
 数据清洗 → 可视化 → 报告生成 
 → URL 准备 → 视频切片 
 → 深度切片分析（按多维度）
-→ Part2 报告（含 deep dive、topN、Tier exploration 等）
+→ Part2 报告（含 deep dive、topN、分级深度切片 等）
 → 视频元数据分析 → 去重 → 混淆变量检查
 ```
 
@@ -30,7 +30,7 @@
 ## 📊 Outcomes
 
 - ✅ 输出 **完整周分析报告**（HTML + Markdown）
-- ✅ **直接反哺 [C1 Onboarding Bot](../../03-ai-workflow-automation/C1-solvifox-onboarding-bot/) 二期设计**——FAQ 优化 / 流程简化都基于这份数据
+- ✅ **直接反哺 [C1 Onboarding Bot](../../03-ai-workflow-automation/C1-onboarding-bot/) 二期设计**——FAQ 优化 / 流程简化都基于这份数据
 - ✅ 识别出 Onboarding 关键流失点，给团队提供改进方向
 
 ## 🔧 What I Owned

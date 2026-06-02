@@ -45,7 +45,7 @@
 
 | Module | Description |
 |--------|-------------|
-| [C1 · Onboarding Bot](./03-ai-workflow-automation/C1-solvifox-onboarding-bot/) | Discord 新人入职自动化 + 完整数据分析 pipeline |
+| [C1 · Onboarding Bot](./03-ai-workflow-automation/C1-onboarding-bot/) | Discord 新人入职自动化 + 完整数据分析 pipeline |
 | [C2 · Coach Assistant Bot](./03-ai-workflow-automation/C2-coach-assistant-bot/) | Slack Coach 助手 · 多功能重复劳动接管 |
 
 ### [📈 04 · Data Analysis & Insights](./04-data-analysis-insights/) — 数据分析与洞察

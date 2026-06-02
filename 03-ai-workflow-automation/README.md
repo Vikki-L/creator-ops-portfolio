@@ -16,7 +16,7 @@
 
 | 模块 | 一句话 | 状态 |
 |------|--------|------|
-| [C1 · Onboarding Bot](./C1-solvifox-onboarding-bot/) | Discord 新人入职自动化（5 步） · 含完整 Python 数据 pipeline 作为二期优化依据 | ✅ 已落地 |
+| [C1 · Onboarding Bot](./C1-onboarding-bot/) | Discord 新人入职自动化（5 步） · 含完整 Python 数据 pipeline 作为二期优化依据 | ✅ 已落地 |
 | [C2 · Coach Assistant Bot](./C2-coach-assistant-bot/) | Slack 上替 Coach 做催回复 / 初审 / 模板提醒 / 5K+ 评论奖励（多功能）| ✅ 已规划 |
 
 ---
