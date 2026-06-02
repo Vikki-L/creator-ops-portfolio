@@ -33,12 +33,6 @@ Creator 在 Slack 群里贴视频链接后：
 - 暑期专项方案设计（与 A2 结算系统联动）
 - 与上游 Slack Bot、下游审核 / 结算系统的字段对齐
 
-## 📂 Related (Internal)
-
-- Creator 视频追踪联动需求文档（含飞书版）
-- 暑期投稿与结算需求
-- 暑期 Payment Tracker Excel
-
 ---
 
 [← Board 02](../) · [← Main Portfolio](../../)

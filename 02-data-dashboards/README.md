@@ -18,7 +18,7 @@
 | 模块 | 一句话 | 状态 |
 |------|--------|------|
 | [B1 · Coach Daily Monitor](./B1-coach-daily-monitor/) | 达人每日表现实时大屏 · 决策周期 2 周 → 每天 | ✅ 已上线 |
-| [B2 · Competitor Monitor](./B2-competitor-monitor/) | 31 字段竞品账号监控中台 · 覆盖 5-8 品牌 1000+ 账号 | ✅ 已上线 |
+| [B2 · Competitor Monitor](./B2-competitor-monitor/) | 多维度竞品账号监控中台 · 覆盖 5-8 品牌 1000+ 账号 | ✅ 已上线 |
 | [B3 · Ambassador Scoring](./B3-ambassador-scoring/) | Python 自研评分模型 · 评估 300+ 辅助清退 ~100 | ⭐ 核心案例 |
 | [B4 · Template Dashboard](./B4-template-dashboard/) | 模板维度的爆款率 / 命中率统计 | ✅ 已上线 |
 | [B5 · Content QC Platform](./B5-content-qc-platform/) | 社媒内容质量监控 · 三分结构总览 | ✅ 已规划 |

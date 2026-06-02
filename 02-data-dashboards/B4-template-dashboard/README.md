@@ -33,11 +33,6 @@
 - 原型 HTML
 - 数据更新机制设计
 
-## 📂 Related (Internal)
-
-- 模板数据库 PRD
-- 模板数据看板原型 HTML
-
 ---
 
 [← Board 02](../) · [← Main Portfolio](../../)

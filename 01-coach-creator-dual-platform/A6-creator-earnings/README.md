@@ -5,9 +5,9 @@
 ## 🎯 The Problem
 
 Creator 端原本看不到自己当前的：
-- 本周分级（Tier）
+- 本周分级
 - 本周收入预估
-- 每条视频对应的薪酬 + Bonus
+- 每条视频对应的薪酬 + 奖励
 - 历史结算记录
 
 → 全靠在 Slack 上私聊 Coach 一次次问 → Coach 重复劳动 + Creator 信息黑盒。
@@ -17,7 +17,7 @@ Creator 端原本看不到自己当前的：
 Creator 端 Earnings 页面：
 
 - **本周分级显示**
-- **视频明细**（每条视频对应的薪酬 + Bonus）
+- **视频明细**（每条视频对应的薪酬 + 奖励）
 - **累计 / 历史结算记录**
 - **自助确认入口**（与 A2 联动，Creator 在自己账号确认薪酬明细）
 
@@ -29,14 +29,9 @@ Creator 端 Earnings 页面：
 
 ## 🔧 What I Owned
 
-- PRD v1.0 主导
+- 完整 PRD 主导
 - Creator 端 Earnings 页面原型
 - 与 A2（Coach 端结算系统）的字段对齐与状态衔接
-
-## 📂 Related (Internal)
-
-- Creator 端 Earnings PRD v1.0
-- 与 A2 Coach 端结算管理的双端联动方案
 
 ---
 

@@ -35,12 +35,6 @@
 - 现状原型（HTML 总览图）
 - 长期规划文档
 
-## 📂 Related (Internal)
-
-- 社媒 QC 平台现状与规划 HTML
-- 社媒 QC 平台长期规划 Markdown
-- 社媒有效播放质量分析 HTML
-
 ---
 
 [← Board 02](../) · [← Main Portfolio](../../)

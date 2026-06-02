@@ -5,7 +5,7 @@
 
 ## Overview
 
-这套系统覆盖校园大使在 Solvely 业务里的**完整生命周期**：
+这套系统覆盖校园大使在业务里的**完整生命周期**：
 加入 → 拍视频 → 被审核 → 看反馈 → 看到 AI 评分 → 被结算薪资 → 自助确认收入。
 
 每一环原本都散落在 Slack 消息 / Discord 频道 / 飞书表格里。我从 0 到 1 主导设计，把它们整合成一套**统一的内部产品**，由 Coach 端和 Creator 端两套界面共用一套数据模型。
@@ -15,7 +15,7 @@
 | 模块 | 一句话 | 状态 |
 |------|--------|------|
 | [A1 · Videos & Review](./A1-videos-review/) | 视频审核与反馈（Coach 端 + Creator 端双端） | ✅ 已上线 |
-| [A2 · Internal Payroll](./A2-internal-payroll/) | 内部结算管理（Coach 端） · 自动算薪 + Gusto 半自动打款 | ✅ 已上线 |
+| [A2 · Internal Payroll](./A2-internal-payroll/) | 内部结算管理（Coach 端） · 自动算薪 + 美区薪酬平台半自动打款 | ✅ 已上线 |
 | [A3 · AI Video Review](./A3-ai-video-review/) | AI 视频自动审核系统 + Prompt 工程 | ✅ 迭代中 |
 | [A5 · Coach × Creator Management](./A5-coach-creator-management/) | 内部 CRM · 达人池管理 | ✅ 已上线 |
 | [A6 · Creator Earnings](./A6-creator-earnings/) | Earnings 页面（Creator 端） · 与 A2 双端联动 | ✅ 已上线 |

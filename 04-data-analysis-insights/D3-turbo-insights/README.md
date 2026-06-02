@@ -32,7 +32,7 @@
    ↓
 5. 输出 4 级分级 + 推荐动作（HIGH / MEDIUM / LOW / DROP RISK）
    ↓
-6. 基于 Spring Semester 数据辅助 Coach 团队清退约 100 位大使
+6. 基于学期数据辅助 Coach 团队清退约 100 位大使
    ↓
 7. 配合 A5 Coach 达人管理流程，达人池整体质量明显提升
 ```
@@ -54,11 +54,6 @@
 
 - [B3 · Ambassador Scoring](../../02-data-dashboards/B3-ambassador-scoring/) —— 方法论的产品化落地
 - [A5 · Coach × Creator Management](../../01-coach-creator-dual-platform/A5-coach-creator-management/) —— 清退动作的执行端
-
-## 📂 Related (Internal)
-
-- Turbo.ai 数据分析 PDF（含 30 视频拐点的回归图）
-- [竞品调研] TurboAI 爆款内容分析 PDF（Hook / 节奏 / 产品露出方式）
 
 ---
 

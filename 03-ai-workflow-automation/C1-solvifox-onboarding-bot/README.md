@@ -1,6 +1,6 @@
-# C1 · SolviFox Onboarding Bot · Discord 新人入职自动化
+# C1 · Onboarding Bot · Discord 新人入职自动化
 
-> 一个 Discord Bot 接管所有新校园大使的入职流程 · 5 步自动化 + 知识库 FAQ 智能回答 · 二期优化基于 11 步 Python 数据 pipeline 反哺
+> 一个 Discord Bot 接管所有新校园大使的入职流程 · 5 步自动化 + 知识库 FAQ 智能回答 · 二期优化基于完整 Python 数据 pipeline 反哺
 
 ## 🎯 The Problem
 
@@ -34,15 +34,15 @@
 
 ### ⭐ 二期优化的数据依据
 
-为了知道二期"该优化什么"，我设计了一套 **11 步 Python 数据 pipeline**：
+为了知道二期"该优化什么"，我设计了一套**完整的 Python 数据 pipeline**：
 
 ```
 pull Slack data → filter Onboarding messages → label & prepare 
-→ Gemini batch (v1, v2, v3) → aggregate to FAQ → cluster FAQs 
+→ AI batch labeling (多轮迭代) → aggregate to FAQ → cluster FAQs 
 → generate FAQ dashboard
 ```
 
-输出 FAQ 聚类成果（哪些问题被问得最多、Coach 标记 marker 的分布）→ **直接驱动 v2 Bot 知识库的内容设计**。
+输出 FAQ 聚类成果（哪些问题被问得最多、Coach 标记 marker 的分布）→ **直接驱动二期 Bot 知识库的内容设计**。
 
 ## 📊 Key Results
 
@@ -52,17 +52,10 @@ pull Slack data → filter Onboarding messages → label & prepare
 
 ## 🔧 What I Owned
 
-- 完整需求文档（v1 → v2 → 下一期）
+- 完整需求文档（多轮迭代）
 - Bot 状态机设计 + 邀请码机制设计
-- **11 步 Slack 数据分析 pipeline 设计与实现**（Python + Gemini）
+- **完整的 Slack 数据分析 pipeline 设计与实现**（Python + LLM）
 - 与 Recruiting 系统的状态衔接方案
-
-## 📂 Related (Internal)
-
-- SolviFox Discord Bot 需求文档（v1 + v2 + 下一期）
-- Onboarding 自动化方案 v2 完整文档
-- 11 步 Python 数据分析 pipeline 完整代码（脱敏后）
-- FAQ 聚类成果 + Coach marker 分析
 
 ---
 
