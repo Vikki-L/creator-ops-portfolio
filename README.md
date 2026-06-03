@@ -92,7 +92,7 @@
 
 - 🎓 **UIUC** Grainger College of Engineering · 金融工程硕士（2024-2025）
 - 🎓 **UConn** School of Business · 金融本科 + 数学辅修（2020-2024）
-- 💼 **AI 教育出海产品** · 产品助理（2025.01 – 至今）
+- 💼 **AI 教育出海产品** · 产品助理（2025.01 – 2026.06）
 - 💼 **腾讯 PCG** · 数据分析实习生（2024.12 – 2025.01）
 
 **技术栈**：Python · AI Prompt Engineering · HTML Interactive Prototypes (Cursor) · A/B Testing · Discord Bot · 数据看板设计
