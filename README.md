@@ -2,7 +2,7 @@
 
 > **AI Product / Growth Ops Portfolio** · Internal product system for a North-America-focused AI EdTech business.
 
-> 北美 AI 教育出海产品 · 0→1 主导设计校园大使协作产品系统 + AI Workflow + 数据看板
+> 北美 AI 教育出海产品 · 0→1 主导设计UGC管理双端系统 + AI Workflow + 数据看板
 
 ---
 
