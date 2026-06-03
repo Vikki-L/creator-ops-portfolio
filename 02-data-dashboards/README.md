@@ -19,14 +19,14 @@
 |------|--------|
 | [B1 · Coach Daily Monitor](./B1-coach-daily-monitor/) | 达人每日表现实时大屏 · 决策周期 2 周 → 每天 |
 | [B2 · Competitor Monitor](./B2-competitor-monitor/) | 多维度竞品账号监控中台 · 覆盖 5-8 品牌 1000+ 账号 |
-| ⭐ [B3 · Ambassador Scoring](./B3-ambassador-scoring/) | Python 自研评分模型 · 评估 300+ 辅助清退 ~100 |
+| ⭐ [B3 · Ambassador Scoring](./B3-ambassador-scoring/) | Python 自研评分模型 · 评估 600+ 辅助清退 ~400 |
 | [B4 · Template Dashboard](./B4-template-dashboard/) | 模板维度的爆款率 / 命中率统计 |
 | [B6 · Creator Submission Pipeline](./B6-creator-submission-pipeline/) | Slack 投稿自动入库 → 结算/审核 |
 
 ## Key Outcomes
 
 - 决策周期 **2 周 → 每天**
-- 评估 **300+ 校园大使**，辅助清退 **~100 位**低效大使
+- 评估 **600+ 校园大使**，辅助清退 **~400 位**低效大使
 - 监控 **1000+ 竞品账号** across 5-8 品牌
 - 投稿数据采集去人工化
 

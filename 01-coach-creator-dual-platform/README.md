@@ -1,7 +1,7 @@
 # 01 · Coach × Creator Dual Platform
 ## 双端协作系统
 
-> 一个给 Coach（内部 10 人团队）与 Creator（600+ 北美校园大使）共用的内容协作产品系统。
+> 一个给 Coach 团队（10+ 外部 Coach + 内部 POC）与 Creator（600+ 北美校园大使）共用的内容协作产品系统。
 
 ## Overview
 
@@ -49,7 +49,7 @@
 ## Key Outcomes
 
 - 每周协作处理 **2000+ 视频**
-- 服务 **10 人 Coach + 600+ Creator**
+- 服务 **Coach 团队（10+ 外部 + 内部 POC）+ 600+ Creator**
 - Coach 日均节省 **3-5 小时**
 - Coach 周结算耗时从 **~10 小时 → 几分钟**
 

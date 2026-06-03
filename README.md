@@ -13,7 +13,7 @@
 每周覆盖：
 - 🎬 **2000+ 视频** 在 TikTok / Instagram / YouTube 三平台投放
 - 👥 **600+ 北美校园大使**（Creator）内容生产
-- 🧑‍🏫 **10 人内部 Coach 团队** 协作
+- 🧑‍🏫 **10+ 外部 Coach + 内部 POC** 协作（Coach 团队）
 - 💸 **跨境薪酬结算** 通过美区薪酬平台自动化打款
 
 ---
@@ -35,7 +35,7 @@
 |--------|-------------|
 | [B1 · Coach Daily Monitor](./02-data-dashboards/B1-coach-daily-monitor/) | 达人每日表现实时大屏 |
 | [B2 · Competitor Monitor](./02-data-dashboards/B2-competitor-monitor/) | 多维度竞品账号监控中台 |
-| [B3 · Ambassador Scoring](./02-data-dashboards/B3-ambassador-scoring/) ⭐ | Python 自研评分模型 · 评估 300+ |
+| [B3 · Ambassador Scoring](./02-data-dashboards/B3-ambassador-scoring/) ⭐ | Python 自研评分模型 · 评估 600+ |
 | [B4 · Template Dashboard](./02-data-dashboards/B4-template-dashboard/) | 模板维度统计端 |
 | [B6 · Creator Submission Pipeline](./02-data-dashboards/B6-creator-submission-pipeline/) | Slack 投稿自动入库 |
 
@@ -64,8 +64,8 @@
 | Coach 周结算耗时 | **~10 小时 → 几分钟** |
 | AI 视频审核准确率 | **90%+** |
 | 决策周期 | **2 周 → 每天** |
-| 评估校园大使 | **300+** |
-| 辅助清退低效大使 | **~100 位** |
+| 评估校园大使 | **600+** |
+| 辅助清退低效大使 | **~400 位** |
 | 监控竞品账号 | **1000+ across 5-8 brands** |
 
 ---
@@ -76,7 +76,7 @@
 
 | Repo | 主题 | 招聘亮点 |
 |------|------|---------|
-| 🎯 [campus-ambassador-scoring-system](https://github.com/Vikki-L/campus-ambassador-scoring-system) | Python 自研多维度评分模型 + 三段踢人方法论 | 数据洞察 → 方法论 → 产品落地完整闭环（300+ 评估，辅助清退 100 位）|
+| 🎯 [campus-ambassador-scoring-system](https://github.com/Vikki-L/campus-ambassador-scoring-system) | Python 自研多维度评分模型 + 三段踢人方法论 | 数据洞察 → 方法论 → 产品落地完整闭环（600+ 评估，辅助清退 400 位）|
 | 🤖 [ai-video-review-prompt-engineering](https://github.com/Vikki-L/ai-video-review-prompt-engineering) | LLM 多步视频审核 pipeline + 反幻觉 4 大策略 | Prompt Engineering 实战（准确率 90%+，含 badcase 闭环）|
 | 📊 [data-driven-content-ops-dashboards](https://github.com/Vikki-L/data-driven-content-ops-dashboards) | 数据看板三件套（内部监控 + 竞品情报 + 模板表现）| 数据驱动决策（2 周 → 每天，1000+ 竞品账号）|
 | 🐬 [onboarding-bot](https://github.com/Vikki-L/onboarding-bot) | Discord 入职 Bot + Slack 数据 pipeline | Bot 工程 + 数据驱动 v2 设计 |
