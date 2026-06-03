@@ -12,7 +12,7 @@
 
 每周覆盖：
 - 🎬 **2000+ 视频** 在 TikTok / Instagram / YouTube 三平台投放
-- 👥 **200+ 北美校园大使**（Creator）内容生产
+- 👥 **600+ 北美校园大使**（Creator）内容生产
 - 🧑‍🏫 **10 人内部 Coach 团队** 协作
 - 💸 **跨境薪酬结算** 通过美区薪酬平台自动化打款
 
@@ -27,7 +27,6 @@
 | [A1 · Videos & Review](./01-coach-creator-dual-platform/A1-videos-review/) | 视频审核与反馈（双端）|
 | [A2 · Internal Payroll](./01-coach-creator-dual-platform/A2-internal-payroll/) | 内部结算管理（Coach 端）|
 | [A3 · AI Video Review](./01-coach-creator-dual-platform/A3-ai-video-review/) | AI 视频自动审核 + Prompt 工程 |
-| [A5 · Coach × Creator Management](./01-coach-creator-dual-platform/A5-coach-creator-management/) | 内部 CRM 达人池管理 |
 | [A6 · Creator Earnings](./01-coach-creator-dual-platform/A6-creator-earnings/) | Earnings 页面（Creator 端）|
 
 ### [📊 02 · Data Dashboards](./02-data-dashboards/) — 数据看板
@@ -38,7 +37,6 @@
 | [B2 · Competitor Monitor](./02-data-dashboards/B2-competitor-monitor/) | 多维度竞品账号监控中台 |
 | [B3 · Ambassador Scoring](./02-data-dashboards/B3-ambassador-scoring/) ⭐ | Python 自研评分模型 · 评估 300+ |
 | [B4 · Template Dashboard](./02-data-dashboards/B4-template-dashboard/) | 模板维度统计端 |
-| [B5 · Content QC Platform](./02-data-dashboards/B5-content-qc-platform/) | 社媒 QC 三分结构总览 |
 | [B6 · Creator Submission Pipeline](./02-data-dashboards/B6-creator-submission-pipeline/) | Slack 投稿自动入库 |
 
 ### [🤖 03 · AI Workflow Automation](./03-ai-workflow-automation/) — AI 工作流自动化
@@ -103,17 +101,4 @@
 
 ---
 
-## 🚧 Status
-
-| Module | Status |
-|--------|--------|
-| Main portfolio overview | ✅ Live |
-| 01 · Coach × Creator Dual Platform | ✅ All 5 modules with case studies |
-| 02 · Data Dashboards | ✅ All 6 modules with case studies |
-| 03 · AI Workflow Automation | ✅ Both modules with case studies |
-| 04 · Data Analysis & Insights | ✅ All 3 modules with case studies |
-| Featured independent repos | ✅ All 5 live (see ⭐ Featured Projects above) |
-
----
-
-*Last updated: 2026-06-02*
+*Last updated: 2026-06-03*

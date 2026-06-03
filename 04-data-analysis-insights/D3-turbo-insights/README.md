@@ -34,7 +34,7 @@
    ↓
 6. 基于学期数据辅助 Coach 团队清退约 100 位大使
    ↓
-7. 配合 A5 Coach 达人管理流程，达人池整体质量明显提升
+7. 配合 Coach 团队的清退执行流程，达人池整体质量明显提升
 ```
 
 ## 📊 Why This Matters
@@ -48,12 +48,11 @@
 - 数据拉取（Turbo.ai 几百账号完整视频数据）
 - 回归分析与方法论提炼
 - 产品化落地方案（与 B3 团队对接评分模型设计）
-- 与 A5 Coach 达人池清退执行流程对齐
+- 与 Coach 团队的清退执行流程对齐
 
 ## 🔗 Related Modules
 
 - [B3 · Ambassador Scoring](../../02-data-dashboards/B3-ambassador-scoring/) —— 方法论的产品化落地
-- [A5 · Coach × Creator Management](../../01-coach-creator-dual-platform/A5-coach-creator-management/) —— 清退动作的执行端
 
 ---
 

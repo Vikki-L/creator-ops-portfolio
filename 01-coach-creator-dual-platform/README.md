@@ -1,7 +1,7 @@
 # 01 · Coach × Creator Dual Platform
 ## 双端协作系统
 
-> 一个给 Coach（内部 10 人团队）与 Creator（200+ 北美校园大使）共用的内容协作产品系统。
+> 一个给 Coach（内部 10 人团队）与 Creator（600+ 北美校园大使）共用的内容协作产品系统。
 
 ## Overview
 
@@ -12,13 +12,12 @@
 
 ## Modules
 
-| 模块 | 一句话 | 状态 |
-|------|--------|------|
-| [A1 · Videos & Review](./A1-videos-review/) | 视频审核与反馈（Coach 端 + Creator 端双端） | ✅ 已上线 |
-| [A2 · Internal Payroll](./A2-internal-payroll/) | 内部结算管理（Coach 端） · 自动算薪 + 美区薪酬平台半自动打款 | ✅ 已上线 |
-| [A3 · AI Video Review](./A3-ai-video-review/) | AI 视频自动审核系统 + Prompt 工程 | ✅ 迭代中 |
-| [A5 · Coach × Creator Management](./A5-coach-creator-management/) | 内部 CRM · 达人池管理 | ✅ 已上线 |
-| [A6 · Creator Earnings](./A6-creator-earnings/) | Earnings 页面（Creator 端） · 与 A2 双端联动 | ✅ 已上线 |
+| 模块 | 一句话 |
+|------|--------|
+| [A1 · Videos & Review](./A1-videos-review/) | 视频审核与反馈（Coach 端 + Creator 端双端） |
+| [A2 · Internal Payroll](./A2-internal-payroll/) | 内部结算管理（Coach 端） · 自动算薪 + 美区薪酬平台半自动打款 |
+| [A3 · AI Video Review](./A3-ai-video-review/) | AI 视频自动审核系统 + Prompt 工程 |
+| [A6 · Creator Earnings](./A6-creator-earnings/) | Earnings 页面（Creator 端） · 与 A2 双端联动 |
 
 ## Architecture
 
@@ -29,7 +28,6 @@
 | 📋 **待审视频列表** | A1 视频审核与反馈 |
 | 🤖 **AI 审核辅助** | A3 LLM 多步审核 |
 | 💸 **结算管理** | A2 自动算薪 + 跨境打款 |
-| 👥 **达人 CRM** | A5 达人池管理 |
 | ➕ All Creators | Coach 看下属 / 内部人员看全员 · 可筛选 |
 | ➕ Coach Hub | 个人工作台首页 |
 | ➕ Coach Overview | 团队整体概览 |
@@ -51,7 +49,7 @@
 ## Key Outcomes
 
 - 每周协作处理 **2000+ 视频**
-- 服务 **10 人 Coach + 200+ Creator**
+- 服务 **10 人 Coach + 600+ Creator**
 - Coach 日均节省 **3-5 小时**
 - Coach 周结算耗时从 **~10 小时 → 几分钟**
 

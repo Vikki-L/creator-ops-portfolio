@@ -1,6 +1,6 @@
 # A1 · Videos & Review · 视频审核与反馈
 
-> Coach 端审核工作台 + Creator 端「我的视频」页 · 双端共用数据模型 · 服务 10 人 Coach + 200+ Creator
+> Coach 端审核工作台 + Creator 端「我的视频」页 · 双端共用数据模型 · 服务 10 人 Coach + 600+ Creator
 
 ## 🎯 The Problem
 
@@ -31,7 +31,7 @@
 
 ## 📊 Key Results
 
-- ✅ 上线后服务 **~10 Coach + 200+ Creator**
+- ✅ 上线后服务 **~10 Coach + 600+ Creator**
 - ✅ 每周协作处理 **~2000 条视频**
 - ✅ 相比原 Slack 流程，每位 Coach 日均节省 **3-5 小时**
 - ✅ 审核反馈沉淀成可检索数据，新 Coach 上手周期显著缩短
