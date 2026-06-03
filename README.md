@@ -95,7 +95,7 @@
 - 💼 **AI 教育出海产品** · 产品助理（2025.01 – 2026.06）
 - 💼 **腾讯 PCG** · 数据分析实习生（2024.12 – 2025.01）
 
-**技术栈**：Python · AI Prompt Engineering · HTML Interactive Prototypes (Cursor) · A/B Testing · Discord Bot · 数据看板设计
+**技术栈**：Python · AI Prompt Engineering · AI Workflow / Bot Automation · HTML Interactive Prototypes (Cursor) · A/B Testing · 数据看板设计
 
 **联系**：
 - 📧 zibingl2@illinois.edu
@@ -112,7 +112,7 @@
 | 02 · Data Dashboards | ✅ All 6 modules with case studies |
 | 03 · AI Workflow Automation | ✅ Both modules with case studies |
 | 04 · Data Analysis & Insights | ✅ All 3 modules with case studies |
-| Featured independent repos | 📅 Planned (see below) |
+| Featured independent repos | ✅ All 5 live (see ⭐ Featured Projects above) |
 
 ---
 
