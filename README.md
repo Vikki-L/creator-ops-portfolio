@@ -72,11 +72,17 @@
 
 ---
 
-## ⭐ Featured Projects (Coming Soon)
+## ⭐ Featured Projects · 精选独立 Repos
 
-- 🎯 **campus-ambassador-scoring-system** — Python 自研评分模型 + 数据洞察方法论（300+ 评估，辅助清退 100 位）
-- 🤖 **ai-video-review-prompt-engineering** — AI Prompt 工程闭环（按视频类型分类，多维度审核，准确率 90%+）
-- 📊 **data-driven-content-ops-dashboards** — 数据驱动的内容运营看板三件套
+每个独立 repo 都是一个完整的 case study（含问题 / 方案 / 量化效果 / 复盘）：
+
+| Repo | 主题 | 招聘亮点 |
+|------|------|---------|
+| 🎯 [campus-ambassador-scoring-system](https://github.com/Vikki-L/campus-ambassador-scoring-system) | Python 自研多维度评分模型 + 三段踢人方法论 | 数据洞察 → 方法论 → 产品落地完整闭环（300+ 评估，辅助清退 100 位）|
+| 🤖 [ai-video-review-prompt-engineering](https://github.com/Vikki-L/ai-video-review-prompt-engineering) | LLM 多步视频审核 pipeline + 反幻觉 4 大策略 | Prompt Engineering 实战（准确率 90%+，含 badcase 闭环）|
+| 📊 [data-driven-content-ops-dashboards](https://github.com/Vikki-L/data-driven-content-ops-dashboards) | 数据看板三件套（内部监控 + 竞品情报 + 模板表现）| 数据驱动决策（2 周 → 每天，1000+ 竞品账号）|
+| 🐬 [onboarding-bot](https://github.com/Vikki-L/onboarding-bot) | Discord 入职 Bot + Slack 数据 pipeline | Bot 工程 + 数据驱动 v2 设计 |
+| 💸 [internal-payroll-automation](https://github.com/Vikki-L/internal-payroll-automation) | 跨境薪酬结算自动化（Coach 周结算 10h → 几分钟）| B 端产品设计 + 边界情况设计能力 |
 
 ---
 
