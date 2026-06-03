@@ -4,10 +4,6 @@
 
 > 北美 AI 教育出海产品 · 0→1 主导设计校园大使协作产品系统 + AI Workflow + 数据看板
 
-![Coach Daily Monitor — 内部 Coach 团队每天打开的实时大屏](./assets/screenshots/coach-daily-monitor-hero.png)
-
-<sub>↑ **Coach Daily Monitor** — 管理层和 Coach 每天上班第一件事就打开它，决策周期 _2 周 → 每天_。是 [Data Dashboards · B1](./02-data-dashboards/B1-coach-daily-monitor/) 的产品输出。</sub>
-
 ---
 
 ## 📌 About
