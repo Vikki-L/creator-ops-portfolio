@@ -89,7 +89,7 @@
 - 💼 **AI 教育出海产品** · 产品助理（2025.01 – 至今）
 - 💼 **腾讯 PCG** · 数据分析实习生（2024.12 – 2025.01）
 
-**技术栈**：Python · AI Prompt Engineering · Axure · A/B Testing · Discord Bot · 数据看板设计
+**技术栈**：Python · AI Prompt Engineering · HTML Interactive Prototypes (Cursor) · A/B Testing · Discord Bot · 数据看板设计
 
 **联系**：
 - 📧 zibingl2@illinois.edu
