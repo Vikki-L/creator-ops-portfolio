@@ -1,3 +1,5 @@
+> 本页属于[Coach × Creator 自营 UGC 系统](../../README.md)，在整条流程中负责：新人接入。模块上下游见[完整归属表](../../docs/module-map.md)。以下保留原案例描述，数字与上线状态请结合[材料核对](../../docs/evidence-and-gaps.md)阅读。
+
 # C1 · Onboarding Bot · Discord 新人入职自动化
 
 > 一个 Discord Bot 接管所有新校园大使的入职流程 · 5 步自动化 + 知识库 FAQ 智能回答 · 二期优化基于完整 Python 数据 pipeline 反哺
@@ -37,8 +39,8 @@
 为了知道二期"该优化什么"，我设计了一套**完整的 Python 数据 pipeline**：
 
 ```
-pull Slack data → filter Onboarding messages → label & prepare 
-→ AI batch labeling (多轮迭代) → aggregate to FAQ → cluster FAQs 
+pull Slack data → filter Onboarding messages → label & prepare
+→ AI batch labeling (多轮迭代) → aggregate to FAQ → cluster FAQs
 → generate FAQ dashboard
 ```
 
@@ -60,3 +62,10 @@ pull Slack data → filter Onboarding messages → label & prepare
 ---
 
 [← Board 03](../) · [← Main Portfolio](../../)
+
+## 已收回本项目的详细材料
+
+- [01 · Problem & Context](docs/01-problem-and-context.md)
+- [02 · Bot Design · 5 步自动化 + 邀请码机制](docs/02-bot-design.md)
+- [03 · Data Pipeline · 二期数据依据 · 让二期优化不是拍脑袋](docs/03-data-pipeline.md)
+- [04 · Results · 业务影响 + 复盘](docs/04-results.md)

@@ -1,3 +1,5 @@
+> 本页属于[Coach × Creator 自营 UGC 系统](../../README.md)，在整条流程中负责：日常运营。模块上下游见[完整归属表](../../docs/module-map.md)。以下保留原案例描述，数字与上线状态请结合[材料核对](../../docs/evidence-and-gaps.md)阅读。
+
 # B1 · Coach Daily Monitor · 达人每日表现实时大屏
 
 > 管理层和 Coach 每天上班第一件事就打开它 · 决策周期从 2 周缩短到每天
@@ -45,3 +47,7 @@
 ---
 
 [← Board 02](../) · [← Main Portfolio](../../)
+
+## 已收回本项目的详细材料
+
+- [🔵 Coach Daily Monitor · 达人每日表现实时大屏](docs/independent-case-study.md)

@@ -1,3 +1,5 @@
+> 本页属于[Coach × Creator 自营 UGC 系统](../../README.md)，在整条流程中负责：外部内容研究。模块上下游见[完整归属表](../../docs/module-map.md)。以下保留原案例描述，数字与上线状态请结合[材料核对](../../docs/evidence-and-gaps.md)阅读。
+
 # B2 · Competitor Monitor · 竞品账号监控中台
 
 > 多维度统一管理 · 覆盖 5-8 个北美 AI 教育竞品的 1000+ 账号
@@ -42,3 +44,7 @@
 ---
 
 [← Board 02](../) · [← Main Portfolio](../../)
+
+## 已收回本项目的详细材料
+
+- [🟢 Competitor Monitor · 竞品账号监控中台](docs/independent-case-study.md)

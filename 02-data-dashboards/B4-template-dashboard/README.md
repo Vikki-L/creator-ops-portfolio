@@ -1,3 +1,5 @@
+> 本页属于[Coach × Creator 自营 UGC 系统](../../README.md)，在整条流程中负责：模板与内容指导。模块上下游见[完整归属表](../../docs/module-map.md)。以下保留原案例描述，数字与上线状态请结合[材料核对](../../docs/evidence-and-gaps.md)阅读。
+
 # B4 · Template Dashboard · 模板数据看板
 
 > 70+ 爆款 Hook 模板的统计端 · 让 Coach 知道每个模板「最近数据怎么样、需不需要淘汰、谁拍得好」
@@ -36,3 +38,7 @@
 ---
 
 [← Board 02](../) · [← Main Portfolio](../../)
+
+## 已收回本项目的详细材料
+
+- [🟡 Template Dashboard · 模板数据看板](docs/independent-case-study.md)

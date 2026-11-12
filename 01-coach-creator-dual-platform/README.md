@@ -1,58 +1,14 @@
-# 01 · Coach × Creator Dual Platform
-## 双端协作系统
+# 双端协作核心
 
-> 一个给 Coach 团队（10+ 外部 Coach + 内部 POC）与 Creator（600+ 北美校园大使）共用的内容协作产品系统。
+[返回完整项目](../README.md) · [查看全部模块归属](../docs/module-map.md)
 
-## Overview
+Coach 审核与 Creator 反馈、Coach 结算与 Creator 收入确认，分别是同一条协作流程的两个视角。
 
-这套系统覆盖校园大使在业务里的**完整生命周期**：
-加入 → 拍视频 → 被审核 → 看反馈 → 看到 AI 评分 → 被结算薪资 → 自助确认收入。
+| 模块 | 在系统中的作用 |
+|---|---|
+| [A1 · 内容协作核心](A1-videos-review/) | Coach 复核与 Creator 查看反馈；输出：审核结论与反馈历史 |
+| [A2 · 结算核心：Coach 侧](A2-internal-payroll/) | 生成明细、调整、导出与结果跟踪；输出：A6 展示的明细、支付批次 |
+| [A3 · AI 审核配套](A3-ai-video-review/) | 分类、规则匹配、AI 建议、badcase；输出：可复核的判断建议 |
+| [A6 · 结算核心：Creator 侧](A6-creator-earnings/) | 查看收入明细、确认和历史；输出：确认结果与异议 |
 
-每一环原本都散落在 Slack 消息 / Discord 频道 / 飞书表格里。我从 0 到 1 主导设计，把它们整合成一套**统一的内部产品**，由 Coach 端和 Creator 端两套界面共用一套数据模型。
-
-## Modules
-
-| 模块 | 一句话 |
-|------|--------|
-| [A1 · Videos & Review](./A1-videos-review/) | 视频审核与反馈（Coach 端 + Creator 端双端） |
-| [A2 · Internal Payroll](./A2-internal-payroll/) | 内部结算管理（Coach 端） · 自动算薪 + 美区薪酬平台半自动打款 |
-| [A3 · AI Video Review](./A3-ai-video-review/) | AI 视频自动审核系统 + Prompt 工程 |
-| [A6 · Creator Earnings](./A6-creator-earnings/) | Earnings 页面（Creator 端） · 与 A2 双端联动 |
-
-## Architecture
-
-### 🧑‍🏫 Coach 端（内部工作台）
-
-| 模块 | 说明 |
-|------|------|
-| 📋 **待审视频列表** | A1 视频审核与反馈 |
-| 🤖 **AI 审核辅助** | A3 LLM 多步审核 |
-| 💸 **结算管理** | A2 自动算薪 + 跨境打款 |
-| ➕ All Creators | Coach 看下属 / 内部人员看全员 · 可筛选 |
-| ➕ Coach Hub | 个人工作台首页 |
-| ➕ Coach Overview | 团队整体概览 |
-
-<p align="center"><strong>⇅ 共用数据模型 ⇅</strong></p>
-
-### 🎬 Creator 端
-
-| 模块 | 说明 |
-|------|------|
-| 🎬 **我的视频 + 反馈** | A1 看 Coach 评分 + 反馈 |
-| 💰 **Earnings** | A6 薪酬可视化 + 自助确认 |
-| ➕ Template Library | 模板库 + 每个模板的数据呈现 |
-| ➕ Creator Hub | 个人主页 |
-| ➕ Creator Overview | 个人数据总览 |
-
-> 注：标 ➕ 的子模块属于完整系统的一部分（让整套产品成体系），但本仓库未单独立 case study，仅在此架构图中提及。
-
-## Key Outcomes
-
-- 每周协作处理 **2000+ 视频**
-- 服务 **Coach 团队（10+ 外部 + 内部 POC）+ 600+ Creator**
-- Coach 日均节省 **3-5 小时**
-- Coach 周结算耗时从 **~10 小时 → 几分钟**
-
----
-
-[← Back to Main Portfolio](../)
+原目录编号继续用于历史引用；本目录属于一个完整项目。旧案例数字和状态统一见[效果与材料核对](../docs/evidence-and-gaps.md)。

@@ -1,104 +1,71 @@
-# Creator Ops Portfolio
+# Coach × Creator 双端协作系统
 
-> **AI Product / Growth Ops Portfolio** · Internal product system for a North-America-focused AI EdTech business.
+一个北美 AI 教育产品的**自营 UGC 运营系统**案例：围绕校园大使团队，把新人加入、视频投稿、Coach 审核、反馈、数据追踪和收入确认串成一条协作流程。
 
-> 北美 AI 教育出海产品 · 0→1 主导设计UGC管理双端系统 + AI Workflow + 数据看板
+这是一项完整项目。视频审核、结算、评分、看板和 Bot 是其中的业务模块与配套能力；原先拆出的五个仓库，其公开设计资料现已收回本仓库统一组织。
 
----
+本仓库提供产品设计案例、模块说明和脱敏示例。完整 PRD、原型、业务代码及原始数据保留在私有归档；本仓库不包含可部署的双端应用。历史效果数字的来源、冲突和证据缺口见[效果与材料核对](docs/evidence-and-gaps.md)。
 
-## 📌 About
+## 要解决的问题
 
-这是一个**北美 AI 教育出海产品**的 **UGC 管理双端系统** 建设作品集。我从 0 到 1 主导设计了一套覆盖**校园大使（Creator）全生命周期**的双端协作产品 + 数据看板 + AI 工作流，把原本散落在 Slack / Discord / 飞书的运营链路整合成统一的内部系统。
+Creator 在 Slack / Discord 里提交链接、询问反馈和薪酬；Coach 在聊天记录、表格与多个工具之间核对。换一个 Coach 接手后，视频被怎样审核、Creator 改过什么、哪些内容应该进入结算，很难完整继承。
 
-每周覆盖：
-- 🎬 **2000+ 视频** 在 TikTok / Instagram / YouTube 三平台投放
-- 👥 **600+ 北美校园大使**（Creator）内容生产
-- 🧑‍🏫 **10+ 外部 Coach + 内部 POC** 协作（Coach 团队）
-- 💸 **跨境薪酬结算** 通过美区薪酬平台自动化打款
+因此，系统设计围绕同一位 Creator、同一条视频和同一笔结算记录展开，让双方看到各自要完成的工作，并保留交接所需的历史。
 
----
+## 两端怎样协作
 
-## 🗂️ What's Inside
+| 环节 | Creator 侧 | Coach / 内部团队侧 |
+|---|---|---|
+| 加入 | 完成身份确认，了解任务与提交流程 | 接收新人、确认归属、处理入职异常 |
+| 内容协作 | 提交视频或已发布链接，查看审核反馈 | 接收投稿、参考 AI 建议、完成复核 |
+| 修改与跟进 | 根据反馈修改、补充材料 | 查看历史反馈，跟踪待处理事项 |
+| 收入确认 | 查看本周期明细、确认或提出异议 | 核对有效视频、奖励和调整项，处理异议 |
+| 支付跟踪 | 查看结算进展与历史 | 导出支付批次、核对支付结果、回写状态 |
+| 持续培养 | 查看内容表现与模板参考 | 根据监控、周期评分及分析安排下一轮指导 |
 
-### [📦 01 · Coach × Creator Dual Platform](./01-coach-creator-dual-platform/) — 双端协作系统
+```mermaid
+flowchart LR
+    O[身份确认与入职] --> S[视频投稿与入库]
+    S --> R[AI 辅助与 Coach 复核]
+    R --> F[反馈与修改]
+    F --> R
+    R --> E[结算明细与 Creator 确认]
+    E --> P[支付批次与结果核对]
+    S --> M[视频数据追踪]
+    M --> D[监控与周期评估]
+    D --> T[模板与内容指导]
+    T --> S
+```
 
-| Module | Description |
-|--------|-------------|
-| [A1 · Videos & Review](./01-coach-creator-dual-platform/A1-videos-review/) | 视频审核与反馈（双端）|
-| [A2 · Internal Payroll](./01-coach-creator-dual-platform/A2-internal-payroll/) | 内部结算管理（Coach 端）|
-| [A3 · AI Video Review](./01-coach-creator-dual-platform/A3-ai-video-review/) | AI 视频自动审核 + Prompt 工程 |
-| [A6 · Creator Earnings](./01-coach-creator-dual-platform/A6-creator-earnings/) | Earnings 页面（Creator 端）|
+图中表示业务关系；不同阶段的旧工具、Bot 和双端页面分期演进，不能据此认定所有模块曾同时在同一应用中上线。
 
-### [📊 02 · Data Dashboards](./02-data-dashboards/) — 数据看板
+## 从哪里开始读
 
-| Module | Description |
-|--------|-------------|
-| [B1 · Coach Daily Monitor](./02-data-dashboards/B1-coach-daily-monitor/) | 达人每日表现实时大屏 |
-| [B2 · Competitor Monitor](./02-data-dashboards/B2-competitor-monitor/) | 多维度竞品账号监控中台 |
-| [B3 · Ambassador Scoring](./02-data-dashboards/B3-ambassador-scoring/) ⭐ | Python 自研评分模型 · 评估 600+ |
-| [B4 · Template Dashboard](./02-data-dashboards/B4-template-dashboard/) | 模板维度统计端 |
-| [B6 · Creator Submission Pipeline](./02-data-dashboards/B6-creator-submission-pipeline/) | Slack 投稿自动入库 |
+| 想了解什么 | 阅读入口 |
+|---|---|
+| 系统全貌、角色与数据关系 | [系统总览](docs/system-overview.md) |
+| 一条投稿如何走到反馈、确认与结算 | [端到端流程与交接](docs/workflows.md) |
+| 14 个旧模块分别属于哪里 | [完整模块归属表](docs/module-map.md) |
+| 关键产品设计取舍 | [设计决策](docs/design-decisions.md) |
+| 哪些效果可引用、哪些还要核实 | [效果与材料核对](docs/evidence-and-gaps.md) |
+| 五个独立仓库如何收拢、材料来自哪个版本 | [仓库整合与来源](docs/consolidation.md) |
 
-### [🤖 03 · AI Workflow Automation](./03-ai-workflow-automation/) — AI 工作流自动化
+## 按业务环节查看模块
 
-| Module | Description |
-|--------|-------------|
-| [C1 · Onboarding Bot](./03-ai-workflow-automation/C1-onboarding-bot/) | Discord 新人入职自动化 + 完整数据分析 pipeline |
-| [C2 · Coach Assistant Bot](./03-ai-workflow-automation/C2-coach-assistant-bot/) | Slack Coach 助手 · 多功能重复劳动接管 |
+| 业务环节 | 核心模块 | 配套能力 |
+|---|---|---|
+| 新人进入系统 | [C1 入职自动化](03-ai-workflow-automation/C1-onboarding-bot/) | [D2 入职漏斗分析](04-data-analysis-insights/D2-onboarding-analysis/) |
+| 投稿、审核与反馈 | [B6 投稿入库](02-data-dashboards/B6-creator-submission-pipeline/)、[A1 双端审核](01-coach-creator-dual-platform/A1-videos-review/) | [A3 AI 审核与 badcase](01-coach-creator-dual-platform/A3-ai-video-review/) |
+| 明细、确认与支付 | [A2 Coach 结算](01-coach-creator-dual-platform/A2-internal-payroll/) + [A6 Creator Earnings](01-coach-creator-dual-platform/A6-creator-earnings/) | 支付导出、异议与异常处理 |
+| 日常跟进与培养 | [B1 日常监控](02-data-dashboards/B1-coach-daily-monitor/)、[B3 周期评分](02-data-dashboards/B3-ambassador-scoring/) | [C2 Coach 助手设计](03-ai-workflow-automation/C2-coach-assistant-bot/) |
+| 内容策略迭代 | [B4 模板表现](02-data-dashboards/B4-template-dashboard/)、[B2 竞品监控](02-data-dashboards/B2-competitor-monitor/) | [D1 内容效果分析](04-data-analysis-insights/D1-video-effectiveness/)、[D3 评分方法来源](04-data-analysis-insights/D3-turbo-insights/) |
 
-### [📈 04 · Data Analysis & Insights](./04-data-analysis-insights/) — 数据分析与洞察
+原 A/B/C/D 编号与目录继续保留，供历史引用和旧链接使用；它们是资料分类，不代表四个独立产品。
 
-| Module | Description |
-|--------|-------------|
-| [D1 · Video Effectiveness](./04-data-analysis-insights/D1-video-effectiveness/) | 周/双周视频效果分析 |
-| [D2 · Onboarding Analysis](./04-data-analysis-insights/D2-onboarding-analysis/) | 入职转化漏斗分析（反哺 C1）|
-| [D3 · Turbo.ai Insights](./04-data-analysis-insights/D3-turbo-insights/) ⭐ | 数据洞察 → 三段踢人方法论 → B3 落地闭环 |
+## 我负责的工作
 
----
+根据已有公开案例，工作包括双端需求与原型设计、字段和状态衔接、结算边界条件、AI 审核 Prompt 与错误案例迭代、分析框架，以及开发和财务协作。各模块说明保留具体职责；团队协作成果与个人工作应结合原始材料说明。
 
-## ✨ Highlights
+过去版本列过服务规模、审核准确率和节省时间等结果。这些数字有口径差异，本次整理先集中保留[来源与待核实项](docs/evidence-and-gaps.md)，不把它们作为已重新验证的统一成效。
 
-| 维度 | 数据 |
-|------|------|
-| Coach 日均节省 | **3-5 小时** |
-| Coach 周结算耗时 | **~10 小时 → 几分钟** |
-| AI 视频审核准确率 | **90%+** |
-| 决策周期 | **2 周 → 每天** |
-| 评估校园大使 | **600+** |
-| 辅助清退低效大使 | **~400 位** |
-| 监控竞品账号 | **1000+ across 5-8 brands** |
-
----
-
-## ⭐ Featured Projects · 精选独立 Repos
-
-每个独立 repo 都是一个完整的 case study（含问题 / 方案 / 量化效果 / 复盘）：
-
-| Repo | 主题 | 招聘亮点 |
-|------|------|---------|
-| 🎯 [campus-ambassador-scoring-system](https://github.com/Vikki-L/campus-ambassador-scoring-system) | Python 自研多维度评分模型 + 三段踢人方法论 | 数据洞察 → 方法论 → 产品落地完整闭环（600+ 评估，辅助清退 400 位）|
-| 🤖 [ai-video-review-prompt-engineering](https://github.com/Vikki-L/ai-video-review-prompt-engineering) | LLM 多步视频审核 pipeline + 反幻觉 4 大策略 | Prompt Engineering 实战（准确率 90%+，含 badcase 闭环）|
-| 📊 [data-driven-content-ops-dashboards](https://github.com/Vikki-L/data-driven-content-ops-dashboards) | 数据看板三件套（内部监控 + 竞品情报 + 模板表现）| 数据驱动决策（2 周 → 每天，1000+ 竞品账号）|
-| 🐬 [onboarding-bot](https://github.com/Vikki-L/onboarding-bot) | Discord 入职 Bot + Slack 数据 pipeline | Bot 工程 + 数据驱动 v2 设计 |
-| 💸 [internal-payroll-automation](https://github.com/Vikki-L/internal-payroll-automation) | 跨境薪酬结算自动化（Coach 周结算 10h → 几分钟）| B 端产品设计 + 边界情况设计能力 |
-
----
-
-## 👤 About Me
-
-**LIU Zibing (Vikki)** · AI 出海产品 · 5 年留美
-
-- 🎓 **UIUC** Grainger College of Engineering · 金融工程硕士（2024-2025）
-- 🎓 **UConn** School of Business · 金融本科 + 数学辅修（2020-2024）
-- 💼 **AI 教育出海产品** · 产品助理（2025.01 – 2026.06）
-- 💼 **腾讯 PCG** · 数据分析实习生（2024.12 – 2025.01）
-
-**技术栈**：Python · AI Prompt Engineering · AI Workflow / Bot Automation · HTML Interactive Prototypes (Cursor) · A/B Testing · 数据看板设计
-
-**联系**：
-- 📧 zibingl2@illinois.edu
-- 💬 微信：18339256770
-
----
-
-*Last updated: 2026-06-03*
+作者：[LIU Zibing / Vikki](https://github.com/Vikki-L)。资料整合日期：2026-11-12。

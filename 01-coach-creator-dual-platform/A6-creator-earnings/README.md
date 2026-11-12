@@ -1,3 +1,5 @@
+> 本页属于[Coach × Creator 自营 UGC 系统](../../README.md)，在整条流程中负责：结算核心：Creator 侧。模块上下游见[完整归属表](../../docs/module-map.md)。以下保留原案例描述，数字与上线状态请结合[材料核对](../../docs/evidence-and-gaps.md)阅读。
+
 # A6 · Creator Earnings · 大使薪酬展示（Creator 端）
 
 > Creator 端的薪酬可视化页面 · 与 A2（Coach 端结算）双端联动 · 自助确认入口

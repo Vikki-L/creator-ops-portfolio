@@ -1,3 +1,5 @@
+> 本页属于[Coach × Creator 自营 UGC 系统](../../README.md)，在整条流程中负责：内容协作核心。模块上下游见[完整归属表](../../docs/module-map.md)。以下保留原案例描述，数字与上线状态请结合[材料核对](../../docs/evidence-and-gaps.md)阅读。
+
 # A1 · Videos & Review · 视频审核与反馈
 
 > Coach 端审核工作台 + Creator 端「我的视频」页 · 双端共用数据模型 · 服务 Coach 团队（10+ 外部 + 内部 POC）+ 600+ Creator

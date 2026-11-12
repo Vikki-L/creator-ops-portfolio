@@ -1,3 +1,5 @@
+> 本页属于[Coach × Creator 自营 UGC 系统](../../README.md)，在整条流程中负责：结算核心：Coach 侧。模块上下游见[完整归属表](../../docs/module-map.md)。以下保留原案例描述，数字与上线状态请结合[材料核对](../../docs/evidence-and-gaps.md)阅读。
+
 # A2 · Internal Payroll · 内部结算管理（Coach 端）
 
 > 一个自动化的跨境薪酬结算后台 · Coach 周结算耗时从 ~10 小时 → 几分钟 · 对接美区薪酬平台半自动打款
@@ -50,3 +52,10 @@
 ---
 
 [← Board 01](../) · [← Main Portfolio](../../)
+
+## 已收回本项目的详细材料
+
+- [01 · Problem & Context](docs/01-problem-and-context.md)
+- [02 · System Design · 系统设计（脱敏概览）](docs/02-system-design.md)
+- [03 · Edge Cases · 容错、风控与跨境分流](docs/03-edge-cases.md)
+- [04 · Results · 业务影响 + 复盘](docs/04-results.md)

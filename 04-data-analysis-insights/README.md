@@ -1,24 +1,13 @@
-# 04 · Data Analysis & Insights
-## 数据分析与洞察
+# 反哺运营的分析
 
-> 周期性 + 专题性数据分析，反哺产品设计与运营决策。
+[返回完整项目](../README.md) · [查看全部模块归属](../docs/module-map.md)
 
-## Modules
+三项分析分别支持内容指导、新人流程和周期评分，是同一系统的改进依据。
 
-| 模块 | 一句话 |
-|------|--------|
-| [D1 · Video Effectiveness](./D1-video-effectiveness/) | 视频效果周/双周分析（Trend vs Talking · 爆款拆解 · 模板命中率）|
-| [D2 · Onboarding Analysis](./D2-onboarding-analysis/) | 新大使「入职 → 首次发视频」转化漏斗 + 留存分析 |
-| ⭐ [D3 · Turbo.ai Insights](./D3-turbo-insights/) | 数据洞察 → 三段踢人方法论 → B3 落地的完整闭环 |
+| 模块 | 在系统中的作用 |
+|---|---|
+| [D1 · 内容效果复盘](D1-video-effectiveness/) | 按类型、模板、平台复盘；输出：B4 与 Coach 指导的迭代依据 |
+| [D2 · 新人漏斗与 FAQ 复盘](D2-onboarding-analysis/) | 分析入职到首次投稿的流失与问题；输出：C1 下一期需求依据 |
+| [D3 · 评分方法来源](D3-turbo-insights/) | 竞品数据分析与经验假设；输出：B3 的方法论参考 |
 
-## 共同点
-
-这三个分析都不是"为了写报告而写报告"——每一份都**直接反哺产品/运营动作**：
-
-- D1 → 反哺 B4 模板看板 + Coach 给 Creator 的派活策略
-- D2 → 反哺 C1 Onboarding Bot 二期优化
-- D3 → 反哺 B3 评分模型 + Coach 团队的清退决策
-
----
-
-[← Back to Main Portfolio](../)
+原目录编号继续用于历史引用；本目录属于一个完整项目。旧案例数字和状态统一见[效果与材料核对](../docs/evidence-and-gaps.md)。
