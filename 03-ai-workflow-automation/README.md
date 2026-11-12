@@ -1,24 +1,12 @@
-# 03 · AI Workflow Automation
-## AI 工作流自动化
+# 围绕业务流程的自动化
 
-> 用 Bot 接管 Coach 和 Onboarding 团队的重复劳动，让人专注做策略和创意。
+[返回完整项目](../README.md) · [查看全部模块归属](../docs/module-map.md)
 
-## Overview
+C1 服务新人进入团队；C2 是 Coach 日常协作助手的设计。它们应结合各自上游输入、下游动作理解。
 
-两个不同平台、不同对象、不同场景的 Bot：
+| 模块 | 在系统中的作用 |
+|---|---|
+| [C1 · 新人接入](C1-onboarding-bot/) | 身份确认、角色与欢迎引导；输出：Creator 归属、入职状态 |
+| [C2 · Coach 助手设计](C2-coach-assistant-bot/) | 提醒、格式检查、初审与 FAQ 规划；输出：对应环节的提醒和待处理项 |
 
-| Bot | 平台 | 对象 | 接管什么 |
-|-----|------|------|---------|
-| **Onboarding Bot** | Discord | 新加入的 Creator | 5 步入职自动化 + FAQ 智能回答 |
-| **Coach Assistant Bot** | Slack | Coach | 多大重复工作：催回复 / 邮件升级 / 视频初审 / 模板格式提醒 / 5K+ 评论奖励 / 问答 |
-
-## Modules
-
-| 模块 | 一句话 |
-|------|--------|
-| [C1 · Onboarding Bot](./C1-onboarding-bot/) | Discord 新人入职自动化（5 步） · 含完整 Python 数据 pipeline 作为二期优化依据 |
-| [C2 · Coach Assistant Bot](./C2-coach-assistant-bot/) | Slack 上替 Coach 做催回复 / 初审 / 模板提醒 / 5K+ 评论奖励（多功能）|
-
----
-
-[← Back to Main Portfolio](../)
+原目录编号继续用于历史引用；本目录属于一个完整项目。旧案例数字和状态统一见[效果与材料核对](../docs/evidence-and-gaps.md)。

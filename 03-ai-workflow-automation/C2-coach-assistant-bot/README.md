@@ -1,3 +1,5 @@
+> 本页属于[Coach × Creator 自营 UGC 系统](../../README.md)，在整条流程中负责：Coach 助手设计。模块上下游见[完整归属表](../../docs/module-map.md)。以下保留原案例描述，数字与上线状态请结合[材料核对](../../docs/evidence-and-gaps.md)阅读。
+
 # C2 · Coach Assistant Bot · Slack 上的 Coach 助手
 
 > Slack Bot 接管 Coach 多个重复劳动 · 让 Coach 专注做内容策略和创意指导

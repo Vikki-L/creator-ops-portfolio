@@ -1,3 +1,5 @@
+> 本页属于[Coach × Creator 自营 UGC 系统](../../README.md)，在整条流程中负责：周期评估。模块上下游见[完整归属表](../../docs/module-map.md)。以下保留原案例描述，数字与上线状态请结合[材料核对](../../docs/evidence-and-gaps.md)阅读。
+
 # B3 · Ambassador Scoring · 校园大使潜力评分
 
 > ⭐ Python 自研评分模型 · 评估 600+ 大使 · 辅助 Coach 团队基于数据清退 ~400 位
@@ -59,3 +61,12 @@ Coach 团队凭经验判断该不该清退某位大使，缺乏量化标准：
 ---
 
 [← Board 02](../) · [← Main Portfolio](../../)
+
+## 已收回本项目的详细材料
+
+- [01 · Problem & Context](docs/01-problem-and-context.md)
+- [02 · Data Insight · "30 视频判断爆款"](docs/02-data-insight.md)
+- [03 · Scoring Model · 评分模型详细设计](docs/03-scoring-model.md)
+- [04 · Product Integration · 与 Coach 工作流的集成](docs/04-product-integration.md)
+- [05 · Results · 量化效果](docs/05-results.md)
+- [sample_data.csv](samples/sample_data.csv)

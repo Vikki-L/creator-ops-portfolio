@@ -1,3 +1,5 @@
+> 本页属于[Coach × Creator 自营 UGC 系统](../../README.md)，在整条流程中负责：AI 审核配套。模块上下游见[完整归属表](../../docs/module-map.md)。以下保留原案例描述，数字与上线状态请结合[材料核对](../../docs/evidence-and-gaps.md)阅读。
+
 # A3 · AI Video Review · AI 视频自动审核系统 + Prompt 工程
 
 > 用 LLM 给短视频做多步审核 · AI 自动判断准确率 90%+ · 按视频类型分类的 Prompt 体系 · 反幻觉策略
@@ -49,3 +51,12 @@
 ---
 
 [← Board 01](../) · [← Main Portfolio](../../)
+
+## 已收回本项目的详细材料
+
+- [01 · Problem & Context](docs/01-problem-and-context.md)
+- [02 · System Design · 多步审核链路](docs/02-system-design.md)
+- [03 · Anti-Hallucination Strategies · 反 AI 幻觉的 4 大核心策略](docs/03-anti-hallucination.md)
+- [04 · Badcase Feedback Loop · 让 AI 越用越准](docs/04-badcase-feedback-loop.md)
+- [05 · Results · 量化效果 + 复盘](docs/05-results.md)
+- [Sample · Prompt Pattern Example (Abstract)](samples/prompt-pattern-example.md)

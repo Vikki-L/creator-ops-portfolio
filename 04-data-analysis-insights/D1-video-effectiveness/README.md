@@ -1,3 +1,5 @@
+> 本页属于[Coach × Creator 自营 UGC 系统](../../README.md)，在整条流程中负责：内容效果复盘。模块上下游见[完整归属表](../../docs/module-map.md)。以下保留原案例描述，数字与上线状态请结合[材料核对](../../docs/evidence-and-gaps.md)阅读。
+
 # D1 · Video Effectiveness · 视频效果分析
 
 > 周期性视频内容数据分析 · 拆解什么样的视频最有效 · 反哺 Template 库 + Coach 派活策略

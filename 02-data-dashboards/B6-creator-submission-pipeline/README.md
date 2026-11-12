@@ -1,3 +1,5 @@
+> 本页属于[Coach × Creator 自营 UGC 系统](../../README.md)，在整条流程中负责：投稿与数据入口。模块上下游见[完整归属表](../../docs/module-map.md)。以下保留原案例描述，数字与上线状态请结合[材料核对](../../docs/evidence-and-gaps.md)阅读。
+
 # B6 · Creator Submission Pipeline · 投稿自动入库
 
 > Slack 投稿 → 自动解析 → 入库到结算/审核系统 · 让数据采集环节去人工化

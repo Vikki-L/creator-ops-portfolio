@@ -1,0 +1,286 @@
+{
+  "date": "2026-11-12",
+  "scope": "Previously public materials only; no private archive content imported",
+  "imports": [
+    {
+      "source_repo": "Vikki-L/ai-video-review-prompt-engineering",
+      "source_commit": "1eb6d343edf5a63bb6488e73f6917debadbaafee",
+      "source_path": "docs/01-problem-and-context.md",
+      "destination": "01-coach-creator-dual-platform/A3-ai-video-review/docs/01-problem-and-context.md",
+      "source_sha256": "503db71bdfe08305b3411bdcb72ea18302ad9f1fcddb2e26b6f43589a04afb3c",
+      "imported_sha256": "c1cb62d851efa468ce8e0e6907c3a6056b27ab1a8613efc46ea06d493be5c413",
+      "changes": [
+        "Added historical-source notice"
+      ]
+    },
+    {
+      "source_repo": "Vikki-L/ai-video-review-prompt-engineering",
+      "source_commit": "1eb6d343edf5a63bb6488e73f6917debadbaafee",
+      "source_path": "docs/02-system-design.md",
+      "destination": "01-coach-creator-dual-platform/A3-ai-video-review/docs/02-system-design.md",
+      "source_sha256": "386d60bf50c3299699a7c09697cf63b4c66c0c08961840b4f03fed5d8711d96f",
+      "imported_sha256": "2ed6e3de63c29d8d3baac569bf897a3db815523e8720624333375f8bcd4a5c23",
+      "changes": [
+        "Added historical-source notice"
+      ]
+    },
+    {
+      "source_repo": "Vikki-L/ai-video-review-prompt-engineering",
+      "source_commit": "1eb6d343edf5a63bb6488e73f6917debadbaafee",
+      "source_path": "docs/03-anti-hallucination.md",
+      "destination": "01-coach-creator-dual-platform/A3-ai-video-review/docs/03-anti-hallucination.md",
+      "source_sha256": "beb91f139c48dc462829aa8fdbe99b753836b7a20b4f849970e8e87c9c82f66f",
+      "imported_sha256": "171f232286af2e94a5eb48a619dab8f13ba51fcc95647b738d2cf027ce5adea1",
+      "changes": [
+        "Added historical-source notice",
+        "Normalized trailing whitespace and final newline"
+      ]
+    },
+    {
+      "source_repo": "Vikki-L/ai-video-review-prompt-engineering",
+      "source_commit": "1eb6d343edf5a63bb6488e73f6917debadbaafee",
+      "source_path": "docs/04-badcase-feedback-loop.md",
+      "destination": "01-coach-creator-dual-platform/A3-ai-video-review/docs/04-badcase-feedback-loop.md",
+      "source_sha256": "25169fb7a79486fa2f0e9b5db7baa84c735e91a5acd5a54049b3fa5fe68cfae4",
+      "imported_sha256": "7505e0459996027cf5038ab8063e72208e205dd332d26efcca96d85f88ea704e",
+      "changes": [
+        "Added historical-source notice"
+      ]
+    },
+    {
+      "source_repo": "Vikki-L/ai-video-review-prompt-engineering",
+      "source_commit": "1eb6d343edf5a63bb6488e73f6917debadbaafee",
+      "source_path": "docs/05-results.md",
+      "destination": "01-coach-creator-dual-platform/A3-ai-video-review/docs/05-results.md",
+      "source_sha256": "2fd5cd441c5e3434772c28d2632a9245d66f3e63b228333533543b65a4adff57",
+      "imported_sha256": "25873ee8528e40cc844095227117b0ba3f1d3926ceb311d5e27ec4f5debd336d",
+      "changes": [
+        "Added historical-source notice"
+      ]
+    },
+    {
+      "source_repo": "Vikki-L/ai-video-review-prompt-engineering",
+      "source_commit": "1eb6d343edf5a63bb6488e73f6917debadbaafee",
+      "source_path": "samples/prompt-pattern-example.md",
+      "destination": "01-coach-creator-dual-platform/A3-ai-video-review/samples/prompt-pattern-example.md",
+      "source_sha256": "1f49bbe6b5bfbcaddeae7cb162421be792091b582b041ccee178b459e351958d",
+      "imported_sha256": "c1f362ba119f7a27022961aa561e54dbebca8713186627da62dc5ff7d89cea09",
+      "changes": [
+        "Added historical-source notice",
+        "Normalized trailing whitespace and final newline"
+      ]
+    },
+    {
+      "source_repo": "Vikki-L/campus-ambassador-scoring-system",
+      "source_commit": "f5022cdeb29815f78044e847072cb134b5ca7f78",
+      "source_path": "docs/01-problem-and-context.md",
+      "destination": "02-data-dashboards/B3-ambassador-scoring/docs/01-problem-and-context.md",
+      "source_sha256": "57316acc420f97a33bad4c7f46460cd254fa29c9fb2081fdad373626423fc6a6",
+      "imported_sha256": "34ba276977e9125cafedb80d686a8b033198d59c54ed218dc4488bd7be399c03",
+      "changes": [
+        "Added historical-source notice"
+      ]
+    },
+    {
+      "source_repo": "Vikki-L/campus-ambassador-scoring-system",
+      "source_commit": "f5022cdeb29815f78044e847072cb134b5ca7f78",
+      "source_path": "docs/02-data-insight.md",
+      "destination": "02-data-dashboards/B3-ambassador-scoring/docs/02-data-insight.md",
+      "source_sha256": "d8f0a1ba26cbf3e05b21d19356549dc8763a08d240de4668d25bb5d3f01b96a6",
+      "imported_sha256": "8e31030fdc14cba4ed40304037240e5cb55a332bdeeebbe8cafe80ef2ffb6133",
+      "changes": [
+        "Added historical-source notice"
+      ]
+    },
+    {
+      "source_repo": "Vikki-L/campus-ambassador-scoring-system",
+      "source_commit": "f5022cdeb29815f78044e847072cb134b5ca7f78",
+      "source_path": "docs/03-scoring-model.md",
+      "destination": "02-data-dashboards/B3-ambassador-scoring/docs/03-scoring-model.md",
+      "source_sha256": "064f5e6c26c499ea8d2b2d1cdf8b063fcd89f4be5b16454971e5969d1a038780",
+      "imported_sha256": "ebcefff2d92bd15d793f3e4e23a822b271e049f413ed0bf972be56772e5add41",
+      "changes": [
+        "Added historical-source notice",
+        "Normalized trailing whitespace and final newline"
+      ]
+    },
+    {
+      "source_repo": "Vikki-L/campus-ambassador-scoring-system",
+      "source_commit": "f5022cdeb29815f78044e847072cb134b5ca7f78",
+      "source_path": "docs/04-product-integration.md",
+      "destination": "02-data-dashboards/B3-ambassador-scoring/docs/04-product-integration.md",
+      "source_sha256": "4220359e354d7945901962048579877ac120be9043eaf60097a6e8bc752d6bf0",
+      "imported_sha256": "d0d6fd2c2c9fc7d07d9afbe5f6c5253a3504462744ec769fe0feeb0d11c84bab",
+      "changes": [
+        "Added historical-source notice",
+        "Replaced removed A5 URL with project overview",
+        "Normalized trailing whitespace and final newline"
+      ]
+    },
+    {
+      "source_repo": "Vikki-L/campus-ambassador-scoring-system",
+      "source_commit": "f5022cdeb29815f78044e847072cb134b5ca7f78",
+      "source_path": "docs/05-results.md",
+      "destination": "02-data-dashboards/B3-ambassador-scoring/docs/05-results.md",
+      "source_sha256": "c348131a9bfc5e84b8387adf94d207c56efe58041bf6c91aa1675d33668a3c07",
+      "imported_sha256": "946abeaadcad1f1738dda881aac97ef72d35e1706e6d156848de3a2646c852d3",
+      "changes": [
+        "Added historical-source notice"
+      ]
+    },
+    {
+      "source_repo": "Vikki-L/campus-ambassador-scoring-system",
+      "source_commit": "f5022cdeb29815f78044e847072cb134b5ca7f78",
+      "source_path": "samples/sample_data.csv",
+      "destination": "02-data-dashboards/B3-ambassador-scoring/samples/sample_data.csv",
+      "source_sha256": "44d343b45b7a99e769189049f25cc08fbd3904c32e78e385c1ab6ceb849663a1",
+      "imported_sha256": "44d343b45b7a99e769189049f25cc08fbd3904c32e78e385c1ab6ceb849663a1",
+      "changes": []
+    },
+    {
+      "source_repo": "Vikki-L/internal-payroll-automation",
+      "source_commit": "29b7ecd85b3ff16eb2684e799f9fc258b79ad8cc",
+      "source_path": "docs/01-problem-and-context.md",
+      "destination": "01-coach-creator-dual-platform/A2-internal-payroll/docs/01-problem-and-context.md",
+      "source_sha256": "76c465e08d55f37f3ddf517035075a0afc8e620b1a6ebb3debbc879a3b1145d6",
+      "imported_sha256": "9b768e2f036901bd32773b122e708af36741dce66a66da3097b335114183bc49",
+      "changes": [
+        "Added historical-source notice"
+      ]
+    },
+    {
+      "source_repo": "Vikki-L/internal-payroll-automation",
+      "source_commit": "29b7ecd85b3ff16eb2684e799f9fc258b79ad8cc",
+      "source_path": "docs/02-system-design.md",
+      "destination": "01-coach-creator-dual-platform/A2-internal-payroll/docs/02-system-design.md",
+      "source_sha256": "54293620f02539f1ad347ff8617cb8c4aeb7556c939e2ed206541fd460bcfdfc",
+      "imported_sha256": "59d746f11512535af6c35d97040e18bd2e7e4ac6fbe6fdd871e61d651de6784b",
+      "changes": [
+        "Added historical-source notice"
+      ]
+    },
+    {
+      "source_repo": "Vikki-L/internal-payroll-automation",
+      "source_commit": "29b7ecd85b3ff16eb2684e799f9fc258b79ad8cc",
+      "source_path": "docs/03-edge-cases.md",
+      "destination": "01-coach-creator-dual-platform/A2-internal-payroll/docs/03-edge-cases.md",
+      "source_sha256": "45efb76b2b2f25b3e9a7d1251fd25f7a556bbbd9ca1f6635821c5e683545f26e",
+      "imported_sha256": "06a0a3fd62700b417d7a8e30c2655a5442b1c1eb57c045c8a58950bb99f44dd8",
+      "changes": [
+        "Added historical-source notice",
+        "Normalized trailing whitespace and final newline"
+      ]
+    },
+    {
+      "source_repo": "Vikki-L/internal-payroll-automation",
+      "source_commit": "29b7ecd85b3ff16eb2684e799f9fc258b79ad8cc",
+      "source_path": "docs/04-results.md",
+      "destination": "01-coach-creator-dual-platform/A2-internal-payroll/docs/04-results.md",
+      "source_sha256": "b039a37bd3eac436f5f4a229b41b4e254c3f4da71e18baa770e5dcb86015f36e",
+      "imported_sha256": "f3d7f9062b8355a03c1b56acd6bd4917f168d25d26bcccea6d1973a979becb9f",
+      "changes": [
+        "Added historical-source notice"
+      ]
+    },
+    {
+      "source_repo": "Vikki-L/onboarding-bot",
+      "source_commit": "dc35bc8eb4ebc1a2615520b5eac9b8df3293eb28",
+      "source_path": "docs/01-problem-and-context.md",
+      "destination": "03-ai-workflow-automation/C1-onboarding-bot/docs/01-problem-and-context.md",
+      "source_sha256": "13a36b4895842d658e9a3206782e09094c3415dbbc6ba20a76a1d353614fafdf",
+      "imported_sha256": "9463688523ee2f7f3534372eaafe2c13b3c5e7c291e2789da6089a1f81f3baa6",
+      "changes": [
+        "Added historical-source notice"
+      ]
+    },
+    {
+      "source_repo": "Vikki-L/onboarding-bot",
+      "source_commit": "dc35bc8eb4ebc1a2615520b5eac9b8df3293eb28",
+      "source_path": "docs/02-bot-design.md",
+      "destination": "03-ai-workflow-automation/C1-onboarding-bot/docs/02-bot-design.md",
+      "source_sha256": "884d83a8a0cd45519f9fe60f9d5bff590739f49bcbb34d4e83d769d69d485f95",
+      "imported_sha256": "f25852a100321e4ed7e21a5ba477b68e5e664dcea090330ec9427ac8d82d2dd2",
+      "changes": [
+        "Added historical-source notice"
+      ]
+    },
+    {
+      "source_repo": "Vikki-L/onboarding-bot",
+      "source_commit": "dc35bc8eb4ebc1a2615520b5eac9b8df3293eb28",
+      "source_path": "docs/03-data-pipeline.md",
+      "destination": "03-ai-workflow-automation/C1-onboarding-bot/docs/03-data-pipeline.md",
+      "source_sha256": "5d56513f3822574ba92269de4257ed045785f54e3fd9cd35ec9fe24c3f51018b",
+      "imported_sha256": "b111c3dd6e926f3b79b74af88fbbddd3683f60e0e3d50f1de6a0245e1b454d9f",
+      "changes": [
+        "Added historical-source notice"
+      ]
+    },
+    {
+      "source_repo": "Vikki-L/onboarding-bot",
+      "source_commit": "dc35bc8eb4ebc1a2615520b5eac9b8df3293eb28",
+      "source_path": "docs/04-results.md",
+      "destination": "03-ai-workflow-automation/C1-onboarding-bot/docs/04-results.md",
+      "source_sha256": "e77611da598c6b1ef8231934af8a177ec2c4bf7b170278762550008ea525bd59",
+      "imported_sha256": "5be4a0dfe152a118a51a5aa0dcd793c25d3f9856e9e94afa8751e424d80d1342",
+      "changes": [
+        "Added historical-source notice"
+      ]
+    },
+    {
+      "source_repo": "Vikki-L/data-driven-content-ops-dashboards",
+      "source_commit": "7276f46d5ab6a52e3c531e65212fbf741db2eaed",
+      "source_path": "docs/01-why-dashboards-matter.md",
+      "destination": "02-data-dashboards/docs/01-why-dashboards-matter.md",
+      "source_sha256": "480934d09af29ddc0e7566ad2ab209b3083c4fbab0061286495e4cf48f628e4b",
+      "imported_sha256": "dcd74de3905b426b2a2998feec990f94c0c12bc37a3d8b27ba6607083b9a1126",
+      "changes": [
+        "Added historical-source notice",
+        "Normalized trailing whitespace and final newline"
+      ]
+    },
+    {
+      "source_repo": "Vikki-L/data-driven-content-ops-dashboards",
+      "source_commit": "7276f46d5ab6a52e3c531e65212fbf741db2eaed",
+      "source_path": "docs/02-design-principles.md",
+      "destination": "02-data-dashboards/docs/02-design-principles.md",
+      "source_sha256": "dbb11ab1f3ca014a3bf3d9f9d2793229ddf4d9b03b251c7be069071df14be1c3",
+      "imported_sha256": "bb1c0b148a8ef1df37c15a7452e674c1223db23de281371fcd92a6485b9a4d8b",
+      "changes": [
+        "Added historical-source notice"
+      ]
+    },
+    {
+      "source_repo": "Vikki-L/data-driven-content-ops-dashboards",
+      "source_commit": "7276f46d5ab6a52e3c531e65212fbf741db2eaed",
+      "source_path": "dashboards/01-coach-daily-monitor/README.md",
+      "destination": "02-data-dashboards/B1-coach-daily-monitor/docs/independent-case-study.md",
+      "source_sha256": "5ac3385c4f43c61b6d65c026b668a92c57cf3326133b7966e2073166e2352d96",
+      "imported_sha256": "2707ef693d4c3be022a6ee1fb1f791d0e515bfbe85c25acf249316ce21406167",
+      "changes": [
+        "Added historical-source notice"
+      ]
+    },
+    {
+      "source_repo": "Vikki-L/data-driven-content-ops-dashboards",
+      "source_commit": "7276f46d5ab6a52e3c531e65212fbf741db2eaed",
+      "source_path": "dashboards/02-competitor-monitor/README.md",
+      "destination": "02-data-dashboards/B2-competitor-monitor/docs/independent-case-study.md",
+      "source_sha256": "6b48a0f46544fa5a3e6aade57aa8111c14cbac9c3d741f687ca18a0ef63e6ee6",
+      "imported_sha256": "a2ffeb7b6ec94624662b6c732a422764115c7cc0fbfd0edef4be93e4e97cbf73",
+      "changes": [
+        "Added historical-source notice"
+      ]
+    },
+    {
+      "source_repo": "Vikki-L/data-driven-content-ops-dashboards",
+      "source_commit": "7276f46d5ab6a52e3c531e65212fbf741db2eaed",
+      "source_path": "dashboards/03-template-dashboard/README.md",
+      "destination": "02-data-dashboards/B4-template-dashboard/docs/independent-case-study.md",
+      "source_sha256": "44238d2485bc772ab311c630b270d7d5ca1e0f1654d2c7f7c7d62c0fdf788d72",
+      "imported_sha256": "d077a318eb1ed41c852800ee11ded1ca9332e82a1a16d0cac7502da60315de51",
+      "changes": [
+        "Added historical-source notice"
+      ]
+    }
+  ]
+}
